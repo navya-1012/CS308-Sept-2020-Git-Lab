@@ -9,7 +9,7 @@ positive number. */
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
-		printf("Usage: ./a.out input\n\n");
+		printf("USAGE: ./a.out input\n\n");
 		exit(-1);
 	}
 
