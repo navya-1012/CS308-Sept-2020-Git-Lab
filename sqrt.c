@@ -14,6 +14,10 @@ int main(int argc, char* argv[]) {
 	}
 
 	int input = atoi(argv[1]);
+	if(input < 0){
+		printf("Error! Given input %d is not a valid number.\nInput must be non-negative. Exiting.\n",input);
+		exit(-1);
+	}
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
 	printf("End of program. Exiting.\n");
 	return(0);
